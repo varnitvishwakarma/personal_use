@@ -1,0 +1,107 @@
+.search-container {
+    position: relative;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .search-container input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+  }
+  
+  .search-container button {
+    background-color: #000080;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #000080;
+  }
+  
+  body {
+    background-image: url('https://images.wallpaperscraft.com/image/single/car_lights_night_116437_3840x2400.jpg');
+    background-size: cover;
+  }
+  
+
+#background-image{
+
+    font-size: 60px ;
+    color: #000080;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 100ms;
+    background-color:#ADD8E6;
+   
+   
+}
+.image{
+    background-size:cover;
+    background-repeat:repeat;
+    height: 500px;;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.format{
+    font-size: 30px;
+    color: #000080;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.content{
+    width: 500px;
+}
+       
+        
+
+
+
+.card{
+    border: 1px solid rgb(7, 61, 116);
+    border-radius: 16px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 300ms;
+    background-color:white;
+    
+}
+
+.card:hover{
+    transform: rotate(4deg);
+    border-radius: 22px;
+    width: 360px;
+    background-color:#fffee9;
+}
+.card-img{
+    width: 100%;
+    border-radius: 16px;
+    
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    background-color:#ADD8E6;
+}
+
+
+
+
+ 
+
+
+
+
