@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY FIRST WEB SITE</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    
+
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Dream Cars</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="search-container">
+        <form action="/search">
+          <input type="text" placeholder="Search your dream car...">
+          <button type="submit">Search</button>
+        </form>
+      </div>
+  
+    <div id="background-image">
+        <H1>DREAM CAR'S</H1>
+      
+      
+    </div>
+
+
+    <div class="flexbox">
+       
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1583623795380-534bba4d966d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVyY2VkZXMlMjBiZW56JTIwbG9nb3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img" alt="">
+            <h3>MERCEDES</h3>
+            <p>Mercedes-Benz was founded by Karl Benz and Gottlieb Wilhelm Daimler and was part of Daimler Motoren Gesellschaft, better known as DMG</p>
+        </div>
+    
+        <div class="card">
+            <img src="https://c0.wallpaperflare.com/preview/348/623/796/land-rover-range-rover.jpg" class="card-img" alt="">
+            <h3>LAND ROVER</h3>
+            <p>Maurice Wilkes, the chairman and chief engineer of the Rover Company, started creating the first Land Rover in 1947, while living at his farm in Wales. It would be officially released at the Amsterdam Motor Show on April, 30, 1948.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1607615640588-c49a4bd20a5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFtYm9yZ2hpbmklMjBsb2dvfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img" alt="">
+            <h3>LAMBORGINI</h3>
+            <p>Ferruccio Lamborghini, the founder of the company that bears his name and is known for stylish, high-performance cars, is born in Italy</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1604010378798-bd4aa2853647?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9yc2NoZSUyMGxvZ298ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img" alt="">
+            <h3>PORSCHE</h3>
+            <p>The history of the Porsche automobile brand began in 1948 with the Type 356, but the groundwork for the company was laid in the design office of Professor Ferdinand Porsche.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1572291941045-14025ac253ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmVudGxleSUyMGxvZ298ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img" alt="">
+            <h3>BENTLEY</h3>
+            <p>Bentley Motors was founded by W.O. Bentley. The first car to bear his name pulled out of New Street Mews, London in 1919</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1606684260830-a22b97b7f6a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHJvbGxzJTIwcm95Y2UlMjBsb2dvfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img" alt="">
+            <h3>ROLLS ROYCE</h3>
+            <P>
+                Rolls-Royce grew from the electrical and mechanical business established by Henry Royce in 1884. Royce built his first motor car in 1904 and in May of that year met Charles Rolls, whose company sold quality cars in London.
+            </P>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR04GRWT4ZvrL4H39lwwSYH8os443pk8F0Dmg&usqp=CAU" class="card-img" alt="">
+            <h3>FERRAI</h3>
+            <p> Enzo Ferrari (1898–1988) in 1939 from the Alfa Romeo racing division as Auto Avio Costruzioni, the company built its first car in 1940, and produced its first Ferrari-badged car in 1947</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1564834401229-4aecdeb9c37c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ym13JTIwbG9nb3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img" alt="">
+            <h3>BMW</h3>
+            <p>BMW can trace its roots back to Karl Rapp and Gustav Otto. In 1916, the Flugmaschinenfabrik Gustav Otto company had merged into Bayerische Flugzeug-Werke AG (BFW) at government behest.</p>
+        </div>
+        <div class="card">
+            <img src=" https://images.unsplash.com/photo-1555652736-e92021d28a10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXVkaXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img" alt="">
+            <h3>AUDI</h3>
+            <p>The Audi history started in 1899 by August Horch, when he founded the Horch & Cie automotive group. It was there he created his first vehicle and included the inline four engine and six-cylinder models that began to set the standard for Audi</p>
+        </div>
+        <div class="card">
+            <img src="https://e0.pxfuel.com/wallpapers/406/858/desktop-wallpaper-bugatti-logo.jpg" class="card-img" alt="">
+            <h3>BUGATTI</h3>
+            <p>Bugatti is a French company that was founded in 1909 by Ettore Bugatti. In the early days, the brand focused on race cars and street cars in Alsace.</p>
+        </div>
+        <div class="card">
+            <img src="https://wallpaperaccess.com/full/913755.jpg" class="card-img" alt="">
+            <h3>JAGUAR</h3>
+            <p>Jaguar is a British luxury vehicle company owned by Tata Motors, one of the largest automotive manufacturers in the world</p>
+        </div>
+        <div class="card">
+            <img src="https://assets.turbologo.com/blog/en/2019/10/19084934/ford-logo-illustration.jpg" class="card-img" alt="">
+            <h3>FORD</h3>
+            <p>Ford Motor Company was ahead of the curve with the design and delivery of that car the Mustang and it became a sensation.</p>
+        </div>
+        
+
+
+    
+    </div>
+
+
+<div class="content"></div>
+
+<footer class="footer">
+    &copy; 2023 Dream Cars. All rights reserved.
+</footer>
+     
+    
+</body>
+</html>
